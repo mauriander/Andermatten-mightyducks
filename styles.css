@@ -1,0 +1,41 @@
+body {
+   
+    font-family: 'Courier New', Courier, monospace;
+   
+}
+.titulos{background-color: black;
+color: white;
+text-align: center;}
+
+.logo{
+    float: right;
+        padding-right: 16px;
+ 
+}
+.cabecera img{
+    width: 100%;
+    height: 300px;
+        display: block;
+     
+}
+.texto { 
+    position:absolute;
+    top: 20px;
+    left: 20px;
+}
+ ul li a{
+    text-decoration: none;
+ }
+
+ .contenedortotal{
+   display: flex;
+    width: 1200px;
+ }
+
+ .izquierda{
+    width: 25%;
+ }
+
+ .derecha{
+    width: 75%;
+ }
