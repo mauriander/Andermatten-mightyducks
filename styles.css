@@ -7,15 +7,21 @@ body {
 color: white;
 text-align: center;}
 
+li{list-style:  none;
+padding: 20px;}
+a{
+    text-decoration: none;}
 .logo{
     float: right;
-        padding-right: 16px;
+    padding-right: 24px;
+    
+   
  
 }
 .cabecera img{
     width: 100%;
     height: 300px;
-        display: block;
+    display: block;
      
 }
 .texto { 

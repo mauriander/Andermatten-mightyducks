@@ -1,1 +1,3 @@
-# Task1-Mindhub
+# Task2-Mindhub
+
+Styles es el primer concepto de
