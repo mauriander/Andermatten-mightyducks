@@ -1,3 +1,10 @@
-# Task2-Mindhub
+# Tasks-Mindhub
 
-Styles es el primer concepto de
+Task1
+*Creacion de plantilals HTML
+Task2
+*Elaboracion de opciones para webs
+*Implementacion de css
+Task3
+*Trabajamos con lista y tablas
+\*Creamos la pagina Information y Rules
