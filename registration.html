@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mighty Ducks Hockey League</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="cabecera">
+        <img src="./img/hockey  1.jpg" alt="hockey 1" class="imagen" />
+        <div class="texto">
+          <h1>Mighty Ducks Hockey League</h1>
+        </div>
+      </div>
+    </header>
+    <div class="logo">
+      <img src="./img/Logo Mighty ducks-01.png" height="100" alt="logo_MHDL" />
+    </div>
+    <div class="titulos">
+      <h2>Upcoming Events</h2>
+    </div>
+    <main>
+      <div class="contenedortotal">
+        <div class="izquierda">
+          <nav>
+            <ul>
+              <li class="linav"><a href="#">Home</a></li>
+              <li class="linav"><a href="./about.html">About MHDL</a></li>
+              <li class="linav"><a href="./contact.html">Contact</a></li>
+              <li class="linav"><a href="./rules.html">Rules</a></li>
+              <li class="linav">
+                <a href="./information.html">Information</a>
+              </li>
+              <li class="linav"><a href="#">Registration Form</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="derecha">
+          <h2>Registration Form</h2>
+          <form id="form" action="./show_data.html">
+            <fieldset>
+              <label for="name">Player First Name:</label>
+              <input type="text" id="name" name="name" />
+
+              <label for="last_name">Last Name:</label>
+              <input type="text" id="last_name" name="last_name" />
+            </fieldset>
+
+            <fieldset>
+              <label for="street">Street Address:</label>
+              <input type="text" id="street" name="street_address" />
+            </fieldset>
+
+            <fieldset>
+              <label for="city">City</label>
+              <input type="text" id="city" name="city" />
+
+              <label for="zip">Zip Code</label>
+              <input type="text" id="zip" name="zip_code" />
+            </fieldset>
+
+            <fieldset>
+              <label for="birth">Birth Date</label>
+              <input type="date" id="birth" name="birthdate" />
+
+              <label for="male">Gender:</label>
+              <label for="male">Male</label>
+              <input type="radio" id="male" name="gender" value="male" />
+              <label for="female">Female</label>
+              <input type="radio" id="female" name="gender" value="female" />
+            </fieldset>
+
+            <fieldset>
+              <label for="preschool">Grade:</label>
+              <input
+                type="checkbox"
+                id="preschool"
+                name="grade"
+                value="preschool"
+              />
+              <label for="preschool">Pre-School</label>
+
+              <input type="checkbox" id="1st" name="grade" value="1st" />
+              <label for="1st">1st</label>
+
+              <input type="checkbox" id="2nd" name="grade" value="2nd" />
+              <label for="2nd">2nd</label>
+
+              <input type="checkbox" id="3rd" name="grade" value="3rd" />
+              <label for="3rd">3rd</label>
+
+              <input type="checkbox" id="4th" name="grade" value="4th" />
+              <label for="4th">4th</label>
+
+              <input type="checkbox" id="5th" name="grade" value="5th" />
+              <label for="5th">5th</label>
+            </fieldset>
+
+            <h3>Which elementary school do you live near</h3>
+
+            <h4>Closest school:</h4>
+            <!-- campo para dividir las escuelas  -->
+            <fieldset class="school">
+              <!-- dividimos en 2 lados izquiero iy derecho 1 izq 2 der -->
+              <div class="school1">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="aj"
+                    name="nearest school"
+                    value="katzenmeier"
+                  />
+                  <label for="aj">AJ Katzenmeier</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="marjorie"
+                    name="nearest school"
+                    value="marjorie"
+                  />
+                  <label for="marjorie">Marjorie P Hart</label>
+                </div>
+                <div>
+                  <input
+                    type="checkbox"
+                    id="greenbay"
+                    name="nearest school"
+                    value="greenbay"
+                  />
+                  <label for="greenbay">Greenbay</label>
+                </div>
+              </div>
+
+              <!-- segundo lado o lado derecho -->
+              <div class="school2">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="north"
+                    name="nearest school"
+                    value="north"
+                  />
+                  <label for="north">Northelementary</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="howard"
+                    name="nearest school"
+                    value="howard"
+                  />
+                  <label for="howard">Howard A Yeager</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="south"
+                    name="nearest school"
+                    value="south"
+                  />
+                  <label for="south">South Elementary</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <h3>
+              what position(s) do you normally play? (check all that apply)
+            </h3>
+            <!-- campo para dividir las posiciones  en dos columans -->
+            <fieldset class="position">
+              <!-- en la posicion 1 pongo los dos elementos -->
+              <div class="position1">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="forward"
+                    name="position"
+                    value="forward"
+                  />
+                  <label for="forward">Forward</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="defense"
+                    name="position"
+                    value="defense"
+                  />
+
+                  <label for="midfield">Midfield</label>
+                </div>
+              </div>
+
+              <!-- en la posicion 2 pongo los dos elementos -->
+              <div class="position2">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="midfield"
+                    name="position"
+                    value="midfield"
+                  />
+                  <label for="defense">Defense</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="goalkeeper"
+                    name="position"
+                    value="goalkeeper"
+                  />
+                  <label for="goalkeeper">Goalkeeper</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <h3>Uniform Size</h3>
+
+            <!-- creo el campo posicion al igual que los anteriores y lo divido en 2 partes -->
+            <fieldset class="position">
+              <!-- parte 1 -->
+              <div class="position1">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="youthsmall"
+                    name="size"
+                    value="youthsmall"
+                  />
+                  <label for="youthsmall">Youth Small</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="youthmedium"
+                    name="size"
+                    value="youthmedium"
+                  />
+                  <label for="youthmedium">Youth Medium</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="youthlarge"
+                    name="size"
+                    value="youthlarge"
+                  />
+                  <label for="youthlarge">Youth Large</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="small" name="size" value="small" />
+                  <label for="small">Small</label>
+                </div>
+              </div>
+              <!-- parte 2 -->
+              <div class="position2">
+                <div>
+                  <input
+                    type="checkbox"
+                    id="medium"
+                    name="size"
+                    value="medium"
+                  />
+                  <label for="medium">Medium</label>
+                </div>
+
+                <div>
+                  <input type="checkbox" id="large" name="size" value="large" />
+                  <label for="large">Large</label>
+                </div>
+
+                <div>
+                  <input
+                    type="checkbox"
+                    id="extralarge"
+                    name="size"
+                    value="extralarge"
+                  />
+                  <label for="extralarge">Extra-Large</label>
+                </div>
+              </div>
+            </fieldset>
+
+            <h2>Permision to Play</h2>
+
+            <p>
+              I, the parent or guardian of the minor registrant, agree that the
+              registrant and I will abide by all the rules of the Mighty Ducks
+              Hockey League (MDHL). In recognizing the possibility of physical
+              injury associated with hockey and in consideration for the
+              "League" accepting the registrant for its hockey programs and
+              activities, I hereby release, discharge, and/or otherwise
+              indemnify MDHL, their employees and associated personnel and
+              volunteers,including the facilities used for practices and games,
+              against any claim by or on behalf of the registrant as a result of
+              the registrant's participation in the programand/orbeing
+              transported to or from MDHL sponsored activities,which
+              transportation By signing below, I herebyagree andauthorizethe
+              above.ln addition, by signing below, lalso acknowledge that I have
+              read the cancellation policy and agree to its terms.
+            </p>
+
+            <div>
+              <label for="signature">Parent/Guardian signature</label>
+              <input type="text" name="signature" id="signature" />
+            </div>
+
+            <div>
+              <label for="actual_date">Date</label>
+              <input type="date" name="actual_date" id="actual_date" />
+            </div>
+            <p></p>
+            <input type="submit" value="Enviar" id="send" />
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

@@ -74,3 +74,48 @@ table {
   text-align: left;
   width: 60%;
 }
+
+
+#form {
+  display: flex;
+  flex-direction: column;
+  
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.school {
+  display: flex;
+  flex-direction: row;
+}
+
+.school1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.school2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+}
+
+.position {
+  display: flex;
+}
+
+.position1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.position2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4.5rem;
+}
+ .imagen {
+
+  width: 100%;
+    height: auto;
+    object-fit: cover;
+    }
