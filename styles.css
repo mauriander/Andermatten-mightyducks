@@ -119,3 +119,24 @@ table {
     height: auto;
     object-fit: cover;
     }
+.mapas {
+    display: flex;
+  padding: 32px;
+
+   
+}
+
+.mapas1 {
+    display: flex;
+      flex-direction: column;
+  padding: 32px;
+   
+
+}
+
+.mapas2 {
+  display: flex;
+  flex-direction: column;
+padding: 32px;
+}
+
