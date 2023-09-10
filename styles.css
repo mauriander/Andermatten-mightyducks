@@ -1,5 +1,16 @@
+/* *{
+  border-width: 1px;
+  border-style: dashed;
+  color: red;
+  
+} */
+
 body {
   font-family: "Courier New", Courier, monospace;
+  background: linear-gradient(90deg,rgba(7, 100, 119, 1) 0%, rgb(67, 67, 114) 48%,rgba(2, 0, 36, 1) 100%); 
+  
+  color: white; 
+   
 }
 .titulos {
   background-color: black;
@@ -10,9 +21,19 @@ body {
 .linav {
   list-style: none;
   padding: 20px;
+  font-weight: bolder;
+  font-size: large;
+  
+  
+}
+.linav:hover {
+  opacity: 0.7;
+
+
 }
 a {
   text-decoration: none;
+  
 }
 .logo {
   float: right;
@@ -38,10 +59,14 @@ ul li a {
 }
 
 .izquierda {
+  min-width: 200px;
   width: 25%;
+  flex-wrap: wrap;
+   
 }
 
 .derecha {
+  
   width: 75%;
 }
 /*Propiedades de la rules.html*/
